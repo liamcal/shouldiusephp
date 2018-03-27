@@ -8,8 +8,8 @@
 </body>
 <script>
   var nImages = 2;
-  function myFunction() {
-    document.getElementById("demo").src = "/static/" + Math.floor((Math.random() * nImages) + 1) + ".gif";
+  window.onload = function() {
+    document.getElementById("no").src = "/static/" + Math.floor((Math.random() * nImages) + 1) + ".gif";
   }
 </script>
 </html>
